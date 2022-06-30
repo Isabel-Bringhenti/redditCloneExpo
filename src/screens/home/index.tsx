@@ -5,6 +5,8 @@ import Icon from  'react-native-vector-icons/Ionicons'
 import * as React from 'react';
 import RedditLogo from "../../assets/icons/reddit-logo.png"
 import EmperorImage from "../../assets/images/emperor-image.jpeg"
+import Emperor from "../../assets/images/emperor.png"
+import StarWars from "../../assets/images/starwars.png"
 import { MaterialCommunityIcons } from '@expo/vector-icons'
 
 export const Home = ({navigation}) => {
@@ -59,8 +61,8 @@ export const Home = ({navigation}) => {
 
             <View style={styles.card} >
                 <View style={styles.cardHeader} >
-                    <Image source={RedditLogo} style={styles.logo}/>
-                    <View style={styles.cardHeaderText} >
+                    <Image source={StarWars} style={styles.logo}/>
+                    <View style={{justifyContent: "space-between", paddingRight: 155}} >
                         <Text style={styles.textTop} >r/StarWars</Text>
                         <View style={styles.cardHeaderBottom} >
                             <Text style={styles.textBottom} >u/Henryphillips29</Text>
@@ -105,8 +107,8 @@ export const Home = ({navigation}) => {
 
             <View style={styles.card} >
                 <View style={styles.cardHeader} >
-                    <Image source={RedditLogo} style={styles.logo}/>
-                    <View style={styles.cardHeaderText} >
+                    <Image source={Emperor} style={styles.logo}/>
+                    <View style={{justifyContent: "space-between", paddingRight: 124}} >
                         <Text style={styles.textTop} >r/PrequelMemes</Text>
                         <View style={styles.cardHeaderBottom} >
                             <Text style={styles.textBottom} >u/picatostas</Text>

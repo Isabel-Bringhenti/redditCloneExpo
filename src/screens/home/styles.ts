@@ -62,7 +62,8 @@ export const styles = StyleSheet.create({
     logo: {
         alignItems: 'center',
         width: 40, 
-        height: 40
+        height: 40,
+        borderRadius: 50
     },
     cardHeader: {
         justifyContent: "space-between",
@@ -91,7 +92,7 @@ export const styles = StyleSheet.create({
     },
     cardHeaderText: {
         justifyContent: "space-between",
-        paddingRight: 195
+        paddingRight: 160
     },
     cardBodyText: {
         fontSize: 20,
